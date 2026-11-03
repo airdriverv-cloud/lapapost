@@ -20,10 +20,17 @@ nav a{color:#fdf6ec;text-decoration:none;margin:0 12px;font-size:.9rem}
 .btn{display:inline-block;margin-top:12px;background:#f4a259;color:#fff;text-decoration:none;padding:8px 16px;border-radius:8px;font-size:.9rem}
 .btn:hover{background:#8c5a2b}
 article{background:#fff;border-radius:14px;padding:28px;box-shadow:0 3px 12px rgba(0,0,0,.08)}
-article h1{font-size:1.7rem;margin:16px 0 4px}
+article h1{font-size:1.7rem;margin:16px 0 4px;line-height:1.3}
 article h2{font-size:1.15rem;margin:22px 0 6px;color:#8c5a2b}
 article img{width:100%;max-height:400px;object-fit:cover;border-radius:12px}
 article p{margin-bottom:10px}
+article .lead{font-size:1.05rem;color:#5a5244;border-left:4px solid #f4a259;padding-left:14px;margin:14px 0 20px}
+.row{display:flex;gap:24px;align-items:flex-start;margin:26px 0}
+.row.rev{flex-direction:row-reverse}
+.row img{width:320px;height:240px;max-height:none;object-fit:cover;border-radius:12px;flex-shrink:0}
+.row .txt{flex:1;min-width:0}
+.row .txt h2{margin-top:0}
+@media(max-width:700px){.row,.row.rev{flex-direction:column}.row img{width:100%;height:auto}}
 .back{display:inline-block;margin-bottom:16px;color:#8c5a2b;text-decoration:none}
 .feedback{margin-top:40px;background:#fff;border-radius:14px;padding:28px;box-shadow:0 3px 12px rgba(0,0,0,.08)}
 .feedback h2{color:#8c5a2b;margin-bottom:8px}
