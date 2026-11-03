@@ -4,12 +4,16 @@ header{background:linear-gradient(135deg,#8c5a2b,#f4a259);color:#fff;padding:48p
 header h1{font-size:2.2rem;margin-bottom:8px}
 header p{opacity:.9}
 nav{background:#3a3226;padding:10px;text-align:center}
-nav a{color:#fdf6ec;text-decoration:none;margin:0 8px;font-size:.9rem}
+nav a{color:#fdf6ec;text-decoration:none;margin:0 12px;font-size:.9rem}
 .wrap{max-width:960px;margin:0 auto;padding:32px 16px}
+.searchbox{margin-bottom:24px}
+.searchbox input{width:100%;padding:12px 16px;font-size:1rem;border:2px solid #f4a259;border-radius:10px;background:#fff}
+.searchbox input:focus{outline:none;border-color:#8c5a2b}
+#searchInfo{margin-top:8px;font-size:.9rem;color:#6b6252}
 .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:24px}
 .card{background:#fff;border-radius:14px;overflow:hidden;box-shadow:0 3px 12px rgba(0,0,0,.1);display:flex;flex-direction:column;transition:transform .15s}
 .card:hover{transform:translateY(-4px)}
-.card img{width:100%;display:block}
+.card img{width:100%;height:200px;object-fit:cover;display:block}
 .card .body{padding:18px}
 .card h2{font-size:1.1rem;margin-bottom:8px}
 .card p{font-size:.92rem;color:#6b6252}
@@ -18,8 +22,15 @@ nav a{color:#fdf6ec;text-decoration:none;margin:0 8px;font-size:.9rem}
 article{background:#fff;border-radius:14px;padding:28px;box-shadow:0 3px 12px rgba(0,0,0,.08)}
 article h1{font-size:1.7rem;margin:16px 0 4px}
 article h2{font-size:1.15rem;margin:22px 0 6px;color:#8c5a2b}
-article img{width:100%;border-radius:12px}
+article img{width:100%;max-height:400px;object-fit:cover;border-radius:12px}
 article p{margin-bottom:10px}
 .back{display:inline-block;margin-bottom:16px;color:#8c5a2b;text-decoration:none}
+.feedback{margin-top:40px;background:#fff;border-radius:14px;padding:28px;box-shadow:0 3px 12px rgba(0,0,0,.08)}
+.feedback h2{color:#8c5a2b;margin-bottom:8px}
+.feedback form{display:flex;flex-direction:column;gap:14px;margin-top:16px}
+.feedback label{display:flex;flex-direction:column;font-size:.95rem}
+.feedback input,.feedback textarea{padding:10px;border:1px solid #d8c8b4;border-radius:8px;font-family:inherit;font-size:1rem;margin-top:4px}
+.feedback button{align-self:flex-start;background:#f4a259;color:#fff;border:none;padding:10px 24px;border-radius:8px;font-size:1rem;cursor:pointer}
+.feedback button:hover{background:#8c5a2b}
 footer{background:#3a3226;color:#fdf6ec;text-align:center;padding:20px;font-size:.85rem;margin-top:40px}
 .badge{display:inline-block;background:#f4a259;color:#fff;border-radius:20px;padding:2px 12px;font-size:.8rem}
