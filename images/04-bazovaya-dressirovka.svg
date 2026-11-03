@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="420" viewBox="0 0 800 420">
+<rect width="800" height="420" fill="#577590"/>
+<circle cx="120" cy="90" r="18" fill="#ffffff" opacity="0.25"/><circle cx="170" cy="55" r="11" fill="#ffffff" opacity="0.2"/>
+<circle cx="350" cy="60" r="10" fill="#ffffff" opacity="0.2"/><circle cx="680" cy="80" r="14" fill="#ffffff" opacity="0.22"/>
+<circle cx="730" cy="360" r="16" fill="#ffffff" opacity="0.2"/><circle cx="90" cy="340" r="12" fill="#ffffff" opacity="0.2"/>
+<g transform="translate(400,170)">
+<ellipse cx="-70" cy="-60" rx="34" ry="55" fill="#33505f" transform="rotate(-20 -70 -60)"/>
+<ellipse cx="70" cy="-60" rx="34" ry="55" fill="#33505f" transform="rotate(20 70 -60)"/>
+<circle cx="0" cy="0" r="95" fill="#fdf6ec"/>
+<circle cx="-34" cy="-18" r="9" fill="#2b2b2b"/><circle cx="34" cy="-18" r="9" fill="#2b2b2b"/>
+<ellipse cx="0" cy="22" rx="20" ry="14" fill="#2b2b2b"/>
+<path d="M -22 48 Q 0 66 22 48" stroke="#2b2b2b" stroke-width="5" fill="none" stroke-linecap="round"/>
+<ellipse cx="-48" cy="14" rx="10" ry="6" fill="#577590" opacity="0.5"/><ellipse cx="48" cy="14" rx="10" ry="6" fill="#577590" opacity="0.5"/>
+</g>
+<text x="400" y="325" font-family="Verdana, sans-serif" font-size="30" font-weight="bold" fill="#ffffff" text-anchor="middle">Базовая дрессировка</text>
+<text x="400" y="365" font-family="Verdana, sans-serif" font-size="19" fill="#ffffff" text-anchor="middle">🎾 «Сидеть», «Ко мне», «Место», «Фу» и «Ждать» — без криков и наказаний.</text>
+</svg>
